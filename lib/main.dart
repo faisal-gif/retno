@@ -1,5 +1,6 @@
 //kode utama Aplikasi tampilan awal
 import 'package:flutter/material.dart';
+import 'package:tokobonekaa/login_page.dart';
 import 'index.dart';
 import 'home.dart';
 //package letak folder Anda
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blueGrey,
       ),
-      home: Index(),
+      home: LoginPage(),
     );
   }
 }
