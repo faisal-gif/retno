@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:sqflite/sqflite.dart';
 import 'dart:async';
-import 'package:sqlite/dbhelper.dart';
-import 'package:sqlite/entrypelanggan.dart';
+import 'dbhelper.dart';
+import 'entrypelanggan.dart';
 import 'pelanggan.dart'; 
 
 //pendukung program asinkron

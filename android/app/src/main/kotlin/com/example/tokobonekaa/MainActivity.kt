@@ -1,4 +1,4 @@
-package com.example.tokobonekaku
+package com.example.tokobonekaa
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sqlite/home.dart';
-import 'package:sqlite/listpelanggan.dart';
+import 'home.dart';
+import 'listpelanggan.dart';
 
 //pendukung program asinkron
 
