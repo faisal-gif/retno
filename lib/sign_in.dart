@@ -23,9 +23,7 @@ Future<String> signInWithGoogle() async {
     // Checking if email and name is null
   
     // Only taking the first part of the name, i.e., First Name
-    if (name.contains(" ")) {
-      name = name.substring(0, name.indexOf(" "));
-    }
+   
     assert(!user.isAnonymous);
     assert(await user.getIdToken() != null);
     final User currentUser = _auth.currentUser;

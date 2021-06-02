@@ -1,9 +1,10 @@
-
 import 'sign_in.dart';
 import 'package:flutter/material.dart';
 import 'login.dart';
 import 'package:tokobonekaa/item.dart';
 import 'listpelanggan.dart';
+import 'index.dart';
+
 class LoginPage extends StatefulWidget {
   @override
   _LoginPageState createState() => _LoginPageState();
@@ -24,12 +25,11 @@ class _LoginPageState extends State<LoginPage> {
             shrinkWrap: true,
             padding: EdgeInsets.only(left: 24.0, right: 24.0),
             children: <Widget>[
-              FlutterLogo(size: 100),
+              Icon(Icons.money,size: 50),
               SizedBox(height: 48),
               _formLogin(),
               SizedBox(height: 20.0),
               _signInButton(),
-         
             ],
           ),
         ),
@@ -125,7 +125,6 @@ class _LoginPageState extends State<LoginPage> {
     );
   }
 
-  
   Widget _signInButton() {
     return Container(
       alignment: Alignment.center,
@@ -137,7 +136,7 @@ class _LoginPageState extends State<LoginPage> {
               Navigator.of(context).push(
                 MaterialPageRoute(
                   builder: (context) {
-                    return ListPelanggan();
+                    return Index();
                   },
                 ),
               );
